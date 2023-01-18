@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/styles.css">
+    <title>Interatividade</title>
+</head>
+<body>
+    <!-- Aparência -->
+
+    <div class="m-4">
+        <select class="appearance-none">
+            <option value="">Teste</option>
+        </select>
+    </div>
+    <div class="m-4">
+        <select>
+            <option value="">Teste</option>
+        </select>
+    </div>
+
+    <!-- Cursor -->
+
+    <div class="p-2 m-4 hover:text-red-500 hover:font-bold">
+        <button class="cursor-pointer">Pointer</button>
+    </div>
+    <div class="p-2 m-4 hover:text-red-500 hover:font-bold">
+        <button class="cursor-wait ">Wait</button>
+    </div>
+    <div class="p-2 m-4 hover:text-red-500 hover:font-bold">
+        <button class="cursor-not-allowed">Not-allowed</button>
+    </div>
+    <div class="p-2 m-4 hover:text-red-500 hover:font-bold">
+        <button class="cursor-text">Text</button>
+    </div>
+
+    <!-- Removendo outline -->
+
+    <div class="p-2 m-4 bg-red-300">
+        <input type="text" placeholder="Clica em mim" class="outline-none">
+        <input type="text" placeholder="Clica em mim" class="outline-black">
+    </div>
+
+    <!-- Removendo Pointer Events -->
+
+    <div class="p-4 m-4 bg-gray-300">
+        <select class="pointer-events-none">
+            <option value="">Teste</option>
+        </select>
+        <select>
+            <option value="">Teste</option>
+        </select>
+    </div>
+
+    <div class="p-4 m-4 bg-teal-300">
+        <textarea name="" id="" cols="30" rows="10" class="pointer-events-none">
+            Pointer-events-none
+        </textarea>
+        <textarea name="" id="" cols="30" rows="10" class="pointer-events-auto">
+            Pointer-events-auto
+        </textarea>
+    </div>
+
+    <!-- Resize -->
+
+    <div class="p-4 m-4 bg-blue-300">
+        <textarea name="" id="" cols="30" rows="10" class="resize-none">
+            Resize-none
+        </textarea>
+        <textarea name="" id="" cols="30" rows="10" class="resize-y">
+            Eixo Y
+        </textarea>
+        <textarea name="" id="" cols="30" rows="10" class="resize-x">
+            Eixo X
+        </textarea>
+        <textarea name="" id="" cols="30" rows="10" class="resize">
+            Resize
+        </textarea>
+    </div>
+
+    <!-- Removendo seleção -->
+
+    <div class="p-4 m-4 text-center text-white bg-slate-300">
+        <p class="select-none">
+            Este texto não pode ser selecionado
+        </p>
+        <p class="select-text">
+            Este texto pode ser selecionado
+        </p>
+        <p class="select-all">
+            Este texto é totalmente selecionável
+        </p>
+    </div>
+</body>
+</html>

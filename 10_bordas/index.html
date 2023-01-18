@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/styles.css">
+    <title>Bordas</title>
+</head>
+<body>
+    <div>
+        <button class="p-4 m-4 text-white bg-red-400 rounded">
+            Testando menor
+        </button>
+        <button class="p-4 m-4 text-white bg-red-400 rounded">
+            Testando
+        </button>
+        <button class="p-4 m-4 text-white bg-red-400 rounded-3xl">
+            Testando maior
+        </button>
+    </div>
+    
+    <div class="m-4">
+        <div class="w-20 h-20 text-center bg-green-500 rounded-full">
+            Circular
+        </div>
+        <div class="w-20 h-10 mt-4 text-center bg-green-500 rounded-full">
+            Pílula
+        </div>
+    </div>
+
+    <!--largura e cor-->
+    
+    <div class="m-4">
+        <div class="w-20 h-10 mt-4 text-center text-white bg-blue-500 border-4 border-blue-800">
+            Botão
+        </div>
+        <div class="w-20 h-10 mt-4 text-center text-white bg-blue-500 border-4 border-blue-800 rounded-full">
+            Botão
+        </div>
+    </div>
+
+    <!--opacidade e estilo da borda-->
+
+    <div class="m-4">
+        <!--Opacidade 25-->
+        <div class="w-20 h-10 mt-4 text-center text-white bg-teal-500 border-4 border-teal-800 border-opacity-25 rounded-full">
+            Botão
+        </div>
+        
+        <!--Opacidade 75-->
+        <div class="w-20 h-10 mt-4 text-center text-white bg-teal-500 border-4 border-teal-800 border-opacity-75 rounded-full">
+            Botão
+        </div>
+        
+        <!--Opacidade 100-->
+        <div class="w-20 h-10 mt-4 text-center text-white bg-teal-500 border-4 border-teal-800 border-opacity-100 rounded-full">
+            Botão
+        </div>
+
+        <!--Estilo da borda-->
+        
+        <div class="w-20 h-10 mt-4 text-center text-white bg-teal-500 border-4 border-teal-800 border-opacity-50 border-dashed rounded-full">
+            Botão
+        </div>
+        <div class="w-20 h-10 mt-4 text-center text-white bg-teal-500 border-4 border-teal-800 border-opacity-50 border-double rounded-full">
+            Botão
+        </div>
+        <div class="w-20 h-10 mt-4 text-center text-white bg-teal-500 border-4 border-teal-800 border-opacity-50 border-dotted rounded-full">
+            Botão
+        </div>
+    </div>
+
+    <!--Divide-->
+
+    <div class="grid grid-cols-4 m-4 divide-x-4 divide-purple-500 divide-dotted">
+        <div class="text-center">
+            1
+        </div>
+        <div class="text-center">
+            2
+        </div>
+        <div class="text-center">
+            3
+        </div>
+        <div class="text-center">
+            4
+        </div>
+    </div>
+    <div class="grid grid-rows-4 m-4 divide-y-2 divide-purple-500 divide-double">
+        <div class="text-left">
+            Testando o divide
+        </div>
+        <div class="text-left">
+            Testando o divide
+        </div>
+        <div class="text-left">
+            Testando o divide
+        </div>
+        <div class="text-left">
+            Testando o divide
+        </div>
+    </div>
+
+    <!--Sombreamento-->
+
+    <div class="p-4 bg-gray-300">
+        <div class="w-20 h-20 m-6 shadow-xs ">
+            Sombra pequena
+        </div>
+        <div class="w-20 h-20 m-6 shadow ">
+            Sombra média
+        </div>
+        <div class="w-20 h-20 m-6 shadow-2xl ">
+            Sombra grande
+        </div>
+    </div>
+</body>
+</html>
